@@ -1,8 +1,5 @@
-# cactus-utils
-
-![hero](assets/cactus-hero.png)
-
-> Cactus Utilities monorepo
+# quisitive-utils
+> quisitive Utilities monorepo
 
 ---
 
@@ -24,14 +21,14 @@
 
 |                                                                Package | Description                                             |
 | ---------------------------------------------------------------------: | :------------------------------------------------------ |
-| [@cactus-technologies/node-application](./packages/application#readme) | Helper to manage PM2 App definitions and process states |
-|                [@cactus-technologies/errors](./packages/errors#readme) | Errors module for Cactus Servers and Applications       |
-|                [@cactus-technologies/logger](./packages/logger#readme) | Customized Pino Logger for Cactus projects              |
-|      [@cactus-technologies/slack-notifier](./packages/notifier#readme) | Slack Notifications Manager                             |
-|          [@cactus-technologies/api-request](./packages/request#readme) | Request helper                                          |
-|                [@cactus-technologies/server](./packages/server#readme) | Basic Server for Cactus Webservices                     |
-|                  [@cactus-technologies/utils](./packages/utils#readme) | Utility functions for node base apps                    |
-|                    [@cactus-technologies/uuid](./packages/uuid#readme) | A set of Unique ID generators for JS apps               |
+| [@quisitive/node-application](./packages/application#readme) | Helper to manage PM2 App definitions and process states |
+|                [@quisitive/errors](./packages/errors#readme) | Errors module for quisitive Servers and Applications       |
+|                [@quisitive/logger](./packages/logger#readme) | Customized Pino Logger for quisitive projects              |
+|      [@quisitive/slack-notifier](./packages/notifier#readme) | Slack Notifications Manager                             |
+|          [@quisitive/api-request](./packages/request#readme) | Request helper                                          |
+|                [@quisitive/server](./packages/server#readme) | Basic Server for quisitive Webservices                     |
+|                  [@quisitive/utils](./packages/utils#readme) | Utility functions for node base apps                    |
+|                    [@quisitive/uuid](./packages/uuid#readme) | A set of Unique ID generators for JS apps               |
 
 ## Getting started
 
@@ -44,8 +41,8 @@ First, ensure you have Node v10+ and [yarn](https://yarnpkg.com) v1.0+ installed
 ### Installation
 
 ```sh
-git clone git@github.com:CactusTechnologies/cactus-utils.git cactus-utils
-  cd cactus-utils
+git clone git@github.com:quisitiveTechnologies/quisitive-utils.git quisitive-utils
+  cd quisitive-utils
   npm install
 ```
 
@@ -78,8 +75,8 @@ Thanks for taking the time to care about the codebase! :tada: :confetti_ball: :+
 
 ## Maintainers
 
-- [Jorge Proaño](mailto:jorge@cactus.is)
+- [Support](mailto:support@quisitive.com)
 
 ## License
 
-[MIT](LICENSE) © [Cactus Technologies LLC](http://www.cactus.is)
+[MIT](LICENSE) © [quisitive LLC](http://quisitive.com)

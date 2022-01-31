@@ -9,7 +9,7 @@ const util = require('util')
 const config = require('config')
 const io = require('@pm2/io')
 const exitHook = require('async-exit-hook')
-const logger = require('@cactus-technologies/logger')
+const logger = require('@quisitive/logger')
 
 /** @type {io} PMX module */
 exports.io = io

@@ -1,4 +1,4 @@
-# @cactus-technologies/logger
+# @quisitive/logger
 
 ![version](https://img.shields.io/badge/version-2.2.1-green.svg)
 ![npm](https://img.shields.io/badge/npm-private-red.svg)
@@ -19,14 +19,14 @@
 ## Installation
 
 ```sh
-npm install @cactus-technologies/logger
+npm install @quisitive/logger
 ```
 
 ## Usage
 
 ```javascript
 /* eslint-disable no-console */
-const logger = require('@cactus-technologies/logger')
+const logger = require('@quisitive/logger')
 const log = logger('demo')
 log.info('hello world')
 ```
@@ -146,7 +146,7 @@ child.info('hello child!')
 - [Jorge Proaño](mailto:jorge@cactus.is)
   ||||||| merged common ancestors
 - # [Jorge Proaño](https://www.hidden-node-problem.com)
-- [Jorge Proaño](mailto:jorge@hiddennodeproblem.com)
+- [Support](mailto:support@quisitive.com)
   > > > > > > > master
 
 ## Changelog
@@ -155,4 +155,4 @@ Find the CHANGELOG [here](CHANGELOG.md), generated using Conventional Commits.
 
 ## License
 
-[MIT](LICENSE) © [Cactus Technologies LLC](http://www.cactus.is)
+[MIT](LICENSE) © [Support](mailto:support@quisitive.com)

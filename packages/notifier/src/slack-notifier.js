@@ -1,12 +1,12 @@
 /*!
- * Copyright 2019 Cactus Technologies, LLC. All rights reserved.
+ * Copyright 2022 Quisitive, LLC. All rights reserved.
  */
 'use strict'
 
 const fp = require('lodash/fp')
 const config = require('config')
 const moment = require('moment-timezone')
-const log = require('@cactus-technologies/logger')('slack')
+const log = require('@quisitive/logger')('slack')
 const ms = require('pretty-ms')
 const req = require('got')
 

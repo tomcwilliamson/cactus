@@ -1,20 +1,20 @@
 {
-  "name": "cactus-utils",
+  "name": "quisitive-utils",
   "version": "0.0.0",
   "private": true,
-  "description": "Cactus Utilities monorepo",
-  "homepage": "https://github.com/CactusTechnologies/cactus-utils#readme",
+  "description": "Quisitive Utilities Monorepo",
+  "homepage": "https://github.com/tomcwilliamson/cactus#readme",
   "bugs": {
-    "url": "https://github.com/CactusTechnologies/cactus-utils/issues"
+    "url": "https://github.com/tomcwilliamson/cactus/issues"
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:CactusTechnologies/cactus-utils.git"
+    "url": "https://github.com/tomcwilliamson/cactus.git"
   },
   "license": "MIT",
-  "author": "Cactus Technologies LLC <hi@cactus.is> (http://www.cactus.is)",
+  "author": "Quisitive Technologies LLC <info@quisitive.com> (http://quisitive.com)",
   "contributors": [
-    "Jorge Proaño <jorge@cactus.is>"
+    "Tom Williamson <tom.williamson@quisitive.com>"
   ],
   "workspaces": [
     "packages/*",
@@ -23,7 +23,7 @@
   ],
   "scripts": {
     "compile": "lerna run compile",
-    "dev": "lerna run dev --scope \"@cactus-technologies/{notifier}\"",
+    "dev": "lerna run dev --scope \"@quisitive/{notifier}\"",
     "lint": "lerna run lint",
     "readme": "run-s readme:*",
     "readme:packages": "lerna exec --concurrency=1 package-scripts -- compile --no-todos",

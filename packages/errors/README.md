@@ -1,4 +1,4 @@
-# @cactus-technologies/errors
+# @quisitive/errors
 
 ![version](https://img.shields.io/badge/version-1.3.1-green.svg)
 ![npm](https://img.shields.io/badge/npm-private-red.svg)
@@ -19,7 +19,7 @@
 ## Installation
 
 ```sh
-npm install @cactus-technologies/errors
+npm install @quisitive/errors
 ```
 
 ## Usage
@@ -28,7 +28,7 @@ npm install @cactus-technologies/errors
 
 ## Maintainers
 
-- [Jorge Proaño](mailto:jorge@hiddennodeproblem.com)
+- [Support](mailto:support@quisitive.com)
 
 ## Changelog
 
@@ -36,4 +36,4 @@ Find the CHANGELOG [here](CHANGELOG.md), generated using Conventional Commits.
 
 ## License
 
-[MIT](LICENSE) © [Cactus Technologies LLC](http://www.cactus.is)
+[MIT](LICENSE) © [Support](mailto:support@quisitive.com)

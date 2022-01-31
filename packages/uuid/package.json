@@ -1,19 +1,19 @@
 {
-  "name": "@cactus-technologies/uuid",
+  "name": "@quisitive/uuid",
   "version": "1.2.1",
   "description": "A set of Unique ID generators for JS apps",
-  "homepage": "https://github.com/CactusTechnologies/cactus-utils/tree/master/packages/uuid#readme",
+  "homepage": "https://github.com/tomcwilliamson/cactus/tree/master/packages/uuid#readme",
   "bugs": {
-    "url": "https://github.com/CactusTechnologies/cactus-utils/issues"
+    "url": "https://github.com/tomcwilliamson/cactus/issues"
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:CactusTechnologies/cactus-utils.git"
+    "url": "git@github.com/tomcwilliamson/cactus.git"
   },
   "license": "MIT",
-  "author": "Cactus Technologies LLC <hi@cactus.is> (http://www.cactus.is)",
+  "author": "Quisitive LLC <support@quisitive.com> (http://quisitive.com)",
   "contributors": [
-    "Jorge Proaño <jorge@hiddennodeproblem.com>"
+    "Support<support@quisitive.com>"
   ],
   "files": [
     "dist"

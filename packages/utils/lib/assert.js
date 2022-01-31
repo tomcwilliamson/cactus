@@ -5,7 +5,7 @@ const validator = require('validator')
 /**
  * Assert functions for quick validations.
  * @namespace {Object} assert
- * @memberOf module:@cactus-technologies/utils
+ * @memberOf module:@quisitive/utils
  */
 
 /**
@@ -17,7 +17,7 @@ const validator = require('validator')
  *
  * @category Validation
  * @memberOf assert
- * @alias module:@cactus-technologies/utils.assert.isNil
+ * @alias module:@quisitive/utils.assert.isNil
  */
 
 exports.isNil = entry => fp.isNil(entry)
@@ -31,7 +31,7 @@ exports.isNil = entry => fp.isNil(entry)
  *
  * @category Validation
  * @memberOf assert
- * @alias module:@cactus-technologies/utils.assert.isEmpty
+ * @alias module:@quisitive/utils.assert.isEmpty
  */
 
 exports.isEmpty = entry => fp.anyPass([fp.isNil, fp.isEmpty])(entry)
@@ -45,8 +45,8 @@ exports.isEmpty = entry => fp.anyPass([fp.isNil, fp.isEmpty])(entry)
  * @return {Boolean}
  *
  * @category Validation
- * @memberOf module:@cactus-technologies/utils.isNumber
- * @alias module:@cactus-technologies/utils.assert.isNumber
+ * @memberOf module:@quisitive/utils.isNumber
+ * @alias module:@quisitive/utils.assert.isNumber
  */
 
 exports.isNumber = entry =>
@@ -65,7 +65,7 @@ exports.isNumber = entry =>
  *
  * @category Validation
  * @memberOf assert
- * @alias module:@cactus-technologies/utils.assert.isString
+ * @alias module:@quisitive/utils.assert.isString
  */
 
 exports.isString = entry => fp.allPass([exports.notEmpty, fp.isString])(entry)
@@ -79,7 +79,7 @@ exports.isString = entry => fp.allPass([exports.notEmpty, fp.isString])(entry)
  *
  * @category Validation
  * @memberOf assert
- * @alias module:@cactus-technologies/utils.assert.isEmail
+ * @alias module:@quisitive/utils.assert.isEmail
  */
 
 exports.isEmail = entry =>
@@ -94,7 +94,7 @@ exports.isEmail = entry =>
  *
  * @category Validation
  * @memberOf assert
- * @alias module:@cactus-technologies/utils.assert.isCreditCard
+ * @alias module:@quisitive/utils.assert.isCreditCard
  */
 
 exports.isCreditCard = entry =>
@@ -109,7 +109,7 @@ exports.isCreditCard = entry =>
  *
  * @category Validation
  * @memberOf assert
- * @alias module:@cactus-technologies/utils.assert.isFunction
+ * @alias module:@quisitive/utils.assert.isFunction
  */
 
 exports.isFunction = entry => fp.isFunction(entry)
@@ -124,7 +124,7 @@ exports.isFunction = entry => fp.isFunction(entry)
  *
  * @category Validation
  * @memberOf assert
- * @alias module:@cactus-technologies/utils.assert.isObject
+ * @alias module:@quisitive/utils.assert.isObject
  */
 
 exports.isObject = entry => fp.isPlainObject(entry)
@@ -138,7 +138,7 @@ exports.isObject = entry => fp.isPlainObject(entry)
  *
  * @category Validation
  * @memberOf assert
- * @alias module:@cactus-technologies/utils.assert.isArray
+ * @alias module:@quisitive/utils.assert.isArray
  */
 exports.isArray = entry => fp.isArray(entry)
 
@@ -151,7 +151,7 @@ exports.isArray = entry => fp.isArray(entry)
  *
  * @category Validation
  * @memberOf assert
- * @alias module:@cactus-technologies/utils.assert.isValidDate
+ * @alias module:@quisitive/utils.assert.isValidDate
  */
 
 exports.isValidDate = entry =>
@@ -167,7 +167,7 @@ exports.isValidDate = entry =>
  * @category Validation
  * @deprecated since version 1.0.4
  * @memberOf assert
- * @alias module:@cactus-technologies/utils.assert.isDate
+ * @alias module:@quisitive/utils.assert.isDate
  */
 
 exports.isDate = require('util').deprecate(
@@ -185,7 +185,7 @@ exports.isDate = require('util').deprecate(
  *
  * @category Date Validation
  * @memberOf assert
- * @alias module:@cactus-technologies/utils.assert.isBeforeToday
+ * @alias module:@quisitive/utils.assert.isBeforeToday
  */
 
 exports.isBeforeToday = entry =>
@@ -206,7 +206,7 @@ exports.isBeforeToday = entry =>
  *
  * @category Date Validation
  * @memberOf assert
- * @alias module:@cactus-technologies/utils.assert.isBefore
+ * @alias module:@quisitive/utils.assert.isBefore
  */
 
 exports.isBefore = (entry, date = Date.now()) =>
@@ -227,7 +227,7 @@ exports.isBefore = (entry, date = Date.now()) =>
  *
  * @category Date Validation
  * @memberOf assert
- * @alias module:@cactus-technologies/utils.assert.isAfter
+ * @alias module:@quisitive/utils.assert.isAfter
  */
 
 exports.isAfter = (entry, date = Date.now()) =>
@@ -246,7 +246,7 @@ exports.isAfter = (entry, date = Date.now()) =>
  *
  * @category Validation
  * @memberOf assert
- * @alias module:@cactus-technologies/utils.assert.isOkStatus
+ * @alias module:@quisitive/utils.assert.isOkStatus
  */
 
 exports.isOkStatus = entry => entry >= 200 && entry < 400
@@ -260,7 +260,7 @@ exports.isOkStatus = entry => entry >= 200 && entry < 400
  *
  * @category Validation
  * @memberOf assert
- * @alias module:@cactus-technologies/utils.assert.isIn
+ * @alias module:@quisitive/utils.assert.isIn
  */
 
 exports.isIn = values => entry => values.includes(entry)
@@ -275,7 +275,7 @@ exports.isIn = values => entry => values.includes(entry)
  * @category Validation
  * @deprecated since version 1.0.4
  * @memberOf assert
- * @alias module:@cactus-technologies/utils.assert.inEnumeration
+ * @alias module:@quisitive/utils.assert.inEnumeration
  */
 
 exports.inEnumeration = require('util').deprecate(
@@ -292,7 +292,7 @@ exports.inEnumeration = require('util').deprecate(
  *
  * @category Negated Validation
  * @memberOf assert
- * @alias module:@cactus-technologies/utils.assert.notNil
+ * @alias module:@quisitive/utils.assert.notNil
  */
 
 exports.notNil = entry => fp.negate(fp.isNil)(entry)
@@ -306,7 +306,7 @@ exports.notNil = entry => fp.negate(fp.isNil)(entry)
  *
  * @category Negated Validation
  * @memberOf assert
- * @alias module:@cactus-technologies/utils.assert.notEmpty
+ * @alias module:@quisitive/utils.assert.notEmpty
  */
 
 exports.notEmpty = entry => fp.negate(exports.isEmpty)
@@ -320,7 +320,7 @@ exports.notEmpty = entry => fp.negate(exports.isEmpty)
  *
  * @category Negated Validation
  * @memberOf assert
- * @alias module:@cactus-technologies/utils.assert.notValidDate
+ * @alias module:@quisitive/utils.assert.notValidDate
  */
 exports.notValidDate = entry => fp.negate(exports.isValidDate)
 
@@ -334,7 +334,7 @@ exports.notValidDate = entry => fp.negate(exports.isValidDate)
  * @category Negated Validation
  * @deprecated since version 1.0.4
  * @memberOf assert
- * @alias module:@cactus-technologies/utils.assert.notDate
+ * @alias module:@quisitive/utils.assert.notDate
  */
 exports.notDate = require('util').deprecate(
   exports.isIn,
@@ -350,7 +350,7 @@ exports.notDate = require('util').deprecate(
  *
  * @category Negated Validation
  * @memberOf assert
- * @alias module:@cactus-technologies/utils.assert.notOkStatus
+ * @alias module:@quisitive/utils.assert.notOkStatus
  */
 
 exports.notOkStatus = entry => fp.negate(exports.isOkStatus)(entry)
@@ -364,7 +364,7 @@ exports.notOkStatus = entry => fp.negate(exports.isOkStatus)(entry)
  *
  * @category FileSystem Validation
  * @memberOf assert
- * @alias module:@cactus-technologies/utils.assert.exists
+ * @alias module:@quisitive/utils.assert.exists
  */
 exports.exists = path => require('fs').existsSync(path)
 
@@ -377,7 +377,7 @@ exports.exists = path => require('fs').existsSync(path)
  *
  * @category Integrity Validation
  * @memberOf assert
- * @alias module:@cactus-technologies/utils.assert.checkDigit
+ * @alias module:@quisitive/utils.assert.checkDigit
  */
 
 exports.checkDigit = input => {

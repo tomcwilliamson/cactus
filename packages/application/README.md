@@ -1,4 +1,4 @@
-# @cactus-technologies/node-application
+# @quisitive/node-application
 
 ![hero](https://raw.githubusercontent.com/CactusTechnologies/cactus-utilities/master/hero.png)
 
@@ -21,7 +21,7 @@
 ## Installation
 
 ```sh
-npm install @cactus-technologies/node-application
+npm install @quisitive/node-application
 ```
 
 ## Usage
@@ -30,7 +30,7 @@ npm install @cactus-technologies/node-application
 
 ## Maintainers
 
-- [Jorge Proaño](mailto:jorge@hiddennodeproblem.com)
+- [Support](mailto:support@quisitive.com)
 
 ## Changelog
 
@@ -38,4 +38,4 @@ Find the CHANGELOG [here](CHANGELOG.md), generated using Conventional Commits.
 
 ## License
 
-[MIT](LICENSE) © [Cactus Technologies LLC](http://www.cactus.is)
+[MIT](LICENSE) © [Support](mailto:support@quisitive.com)

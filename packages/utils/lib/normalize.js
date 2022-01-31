@@ -5,7 +5,7 @@ const validator = require('validator')
 /**
  * Normalize common data.
  * @namespace {Object} normalize
- * @memberOf module:@cactus-technologies/utils
+ * @memberOf module:@quisitive/utils
  */
 
 /**
@@ -16,8 +16,8 @@ const validator = require('validator')
  *
  * @return {String} ISO8601 date.
  *
- * @memberOf module:@cactus-technologies/utils.normalize
- * @alias module:@cactus-technologies/utils.normalize.day
+ * @memberOf module:@quisitive/utils.normalize
+ * @alias module:@quisitive/utils.normalize.day
  */
 exports.day = input =>
   moment
@@ -34,8 +34,8 @@ exports.day = input =>
  *
  * @return {String}
  *
- * @memberOf module:@cactus-technologies/utils.normalize
- * @alias module:@cactus-technologies/utils.normalize.email
+ * @memberOf module:@quisitive/utils.normalize
+ * @alias module:@quisitive/utils.normalize.email
  */
 exports.email = input => validator.normalizeEmail(input)
 
@@ -46,8 +46,8 @@ exports.email = input => validator.normalizeEmail(input)
  *
  * @return {Number}
  *
- * @memberOf module:@cactus-technologies/utils.normalize
- * @alias module:@cactus-technologies/utils.normalize.statusCode
+ * @memberOf module:@quisitive/utils.normalize
+ * @alias module:@quisitive/utils.normalize.statusCode
  */
 exports.statusCode = status => {
   const { STATUS_CODES } = require('http')
@@ -61,8 +61,8 @@ exports.statusCode = status => {
  *
  * @return {String}
  *
- * @memberOf module:@cactus-technologies/utils.normalize
- * @alias module:@cactus-technologies/utils.normalize.string
+ * @memberOf module:@quisitive/utils.normalize
+ * @alias module:@quisitive/utils.normalize.string
  */
 exports.string = input => fp.trim(input)
 
@@ -73,7 +73,7 @@ exports.string = input => fp.trim(input)
  *
  * @return {String}
  *
- * @memberOf module:@cactus-technologies/utils.normalize
- * @alias module:@cactus-technologies/utils.normalize.header
+ * @memberOf module:@quisitive/utils.normalize
+ * @alias module:@quisitive/utils.normalize.header
  */
 exports.header = input => fp.pipe([fp.camelCase, fp.capitalize])(input)

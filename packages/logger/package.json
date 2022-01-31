@@ -1,20 +1,20 @@
 {
-  "name": "@cactus-technologies/logger",
+  "name": "@quisitive/logger",
   "private": true,
   "version": "2.3.0",
   "description": "Customized Pino Logger for Cactus projects",
-  "homepage": "https://github.com/CactusTechnologies/cactus-utils/tree/master/packages/logger#readme",
+  "homepage": "https://github.com/tomcwilliamson/cactus/tree/master/packages/logger#readme",
   "bugs": {
-    "url": "https://github.com/CactusTechnologies/cactus-utils/issues"
+    "url": "https://github.com/tomcwilliamson/cactus/issues"
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:CactusTechnologies/cactus-utils.git"
+    "url": "git@github.com/tomcwilliamson/cactus.git"
   },
   "license": "MIT",
-  "author": "Cactus Technologies LLC <hi@cactus.is> (http://www.cactus.is)",
+  "author": "Quisitive LLC <support@quisitive.com> (http://quisitive.com)",
   "contributors": [
-    "Jorge Proaño <jorge@cactus.is>"
+    "Support <support@quisitive.com>"
   ],
   "main": "lib/index.js",
   "scripts": {

@@ -1,20 +1,20 @@
 {
-  "name": "@cactus-technologies/errors",
+  "name": "@quisitive/errors",
   "private": true,
   "version": "1.4.0",
   "description": "Errors module for Cactus Servers and Applications",
-  "homepage": "https://github.com/CactusTechnologies/cactus-utils/tree/master/packages/errors#readme",
+  "homepage": "https://github.com/tomcwilliamson/cactus/tree/master/packages/errors#readme",
   "bugs": {
-    "url": "https://github.com/CactusTechnologies/cactus-utils/issues"
+    "url": "https://github.com/tomcwilliamson/cactus/issues"
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:CactusTechnologies/cactus-utils.git"
+    "url": "git@github.com/tomcwilliamson/cactus.git"
   },
   "license": "MIT",
-  "author": "Cactus Technologies LLC <hi@cactus.is> (http://www.cactus.is)",
+  "author": "Quisitive LLC <support@quisitive.com> (http://quisitive.com)",
   "contributors": [
-    "Jorge Proaño <jorge@cactus.is>"
+    "Support <support@quisitive.com>"
   ],
   "main": "index.js",
   "dependencies": {

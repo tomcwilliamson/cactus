@@ -1,4 +1,4 @@
-# @cactus-technologies/uuid
+# @quisitive/uuid
 
 ![version](https://img.shields.io/badge/version-1.1.1-green.svg)
 ![npm](https://img.shields.io/badge/npm-private-red.svg)
@@ -21,7 +21,7 @@ Is technically just a thin wrapper over random-js
 ## Installation
 
 ```sh
-npm install @cactus-technologies/uuid
+npm install @quisitive/uuid
 ```
 
 ## Usage
@@ -30,7 +30,7 @@ npm install @cactus-technologies/uuid
 
 ## Maintainers
 
-- [Jorge Proaño](mailto:jorge@hiddennodeproblem.com)
+- [Support](mailto:support@quisitive.com)
 
 ## Changelog
 
@@ -38,4 +38,4 @@ Find the CHANGELOG [here](CHANGELOG.md), generated using Conventional Commits.
 
 ## License
 
-[MIT](LICENSE) © [Cactus Technologies LLC](http://www.cactus.is)
+[MIT](LICENSE) © [Support](mailto:support@quisitive.com)

@@ -1,0 +1,48 @@
+{
+  "eslint.enable": true,
+  "editor.formatOnSave": true,
+  "prettier.eslintIntegration": true,
+  "prettier.tslintIntegration": true,
+  "prettier.stylelintIntegration": true,
+  "css.validate": false,
+  "less.validate": false,
+  "scss.validate": false,
+  "cSpell.words": [
+    "Damm",
+    "Heroku",
+    "Serializers",
+    "execa",
+    "inquier",
+    "ipaddr",
+    "lerna",
+    "listr",
+    "mdast",
+    "monorepo",
+    "printf",
+    "projectz",
+    "promisified",
+    "tada",
+    "todos",
+    "unist"
+  ],
+  "files.watcherExclude": {
+    "**/build": true,
+    "**/coverage": true,
+    "**/dist": true,
+    "docs": true
+  },
+  "search.exclude": {
+    "**/node_modules": true,
+    "**/build": true,
+    "**/coverage": true,
+    "**/dist": true,
+    "docs": true
+  },
+  "cSpell.ignorePaths": ["**/samples/**", "**/package.json"],
+  "files.associations": {
+    ".eslintrc": "json",
+    ".huskyrc": "json",
+    ".prettierrc": "json",
+    ".stylelintrc": "json"
+  }
+}

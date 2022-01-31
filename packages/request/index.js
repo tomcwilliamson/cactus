@@ -4,9 +4,9 @@ const Bottleneck = require('bottleneck')
 const fp = require('lodash/fp')
 const request = require('request')
 
-const errors = require('@cactus-technologies/errors')
-const logger = require('@cactus-technologies/logger')
-const utils = require('@cactus-technologies/utils')
+const errors = require('@quisitive/errors')
+const logger = require('@quisitive/logger')
+const utils = require('@quisitive/utils')
 
 const normalize = utils.normalize
 const assert = utils.assert

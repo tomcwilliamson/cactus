@@ -1,4 +1,4 @@
-# @cactus-technologies/notifier
+# @quisitive/notifier
 
 ![hero](hero.png)
 
@@ -19,7 +19,7 @@
 ## Installation
 
 ```sh
-git clone git@github.com:CactusTechnologies/cactus-utils.git cactus-utils
+git clone git@github.com/tomcwilliamson/cactus.git cactus-utils
   cd cactus-utils
   npm install
 ```
@@ -36,4 +36,4 @@ Find the CHANGELOG [here](CHANGELOG.md), generated using Conventional Commits.
 
 ## License
 
-[MIT](LICENSE) © [Cactus Technologies LLC](http://www.cactus.is)
+[MIT](LICENSE) © [Support](mailto:support@quisitive.com)

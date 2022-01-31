@@ -1,4 +1,4 @@
-# @cactus-technologies/api-request
+# @quisitive/api-request
 
 ![version](https://img.shields.io/badge/version-1.3.1-green.svg)
 ![npm](https://img.shields.io/badge/npm-private-red.svg)
@@ -19,7 +19,7 @@
 ## Installation
 
 ```sh
-npm install @cactus-technologies/api-request
+npm install @quisitive/api-request
 ```
 
 ## Usage
@@ -36,4 +36,4 @@ Find the CHANGELOG [here](CHANGELOG.md), generated using Conventional Commits.
 
 ## License
 
-[MIT](LICENSE) © [Cactus Technologies LLC](http://www.cactus.is)
+[MIT](LICENSE) © [Support](mailto:support@quisitive.com)

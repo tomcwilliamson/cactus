@@ -7,4 +7,4 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ### Features
 
-- **monorepo:** Added basic typescript declarations ([0833169](https://github.com/CactusTechnologies/cactus-utils/commit/0833169))
+- **monorepo:** Added basic typescript declarations ([0833169](https://github.com/tomcwilliamson/cactus/commit/0833169))

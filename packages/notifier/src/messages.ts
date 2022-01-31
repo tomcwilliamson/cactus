@@ -1,5 +1,5 @@
 /*!
- * Copyright 2019 Cactus Technologies, LLC. All rights reserved.
+ * Copyright 2022 Quisitive, LLC. All rights reserved.
  */
 
 class SlackMessage {}

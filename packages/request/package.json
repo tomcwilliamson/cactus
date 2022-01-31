@@ -1,26 +1,26 @@
 {
-  "name": "@cactus-technologies/api-request",
+  "name": "@quisitive/api-request",
   "private": true,
   "version": "1.4.0",
   "description": "Request helper",
-  "homepage": "https://github.com/CactusTechnologies/cactus-utils/tree/master/packages/request#readme",
+  "homepage": "https://github.com/tomcwilliamson/cactus/tree/master/packages/request#readme",
   "bugs": {
-    "url": "https://github.com/CactusTechnologies/cactus-utils/issues"
+    "url": "https://github.com/tomcwilliamson/cactus/issues"
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:CactusTechnologies/cactus-utils.git"
+    "url": "git@github.com/tomcwilliamson/cactus.git"
   },
   "license": "MIT",
-  "author": "Cactus Technologies LLC <hi@cactus.is> (http://www.cactus.is)",
+  "author": "Quisitive LLC <support@quisitive.com> (http://quisitive.com)",
   "contributors": [
-    "Jorge Proaño <jorge@hiddennodeproblem.com>"
+    "Support<support@quisitive.com>"
   ],
   "main": "index.js",
   "dependencies": {
-    "@cactus-technologies/errors": "^1.4.0",
-    "@cactus-technologies/logger": "^2.3.0",
-    "@cactus-technologies/utils": "^1.4.0",
+    "@quisitive/errors": "^1.4.0",
+    "@quisitive/logger": "^2.3.0",
+    "@quisitive/utils": "^1.4.0",
     "bottleneck": "^2.19.5",
     "lodash": "^4.17.15",
     "pretty-bytes": "^5.3.0",

@@ -7,9 +7,9 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ### Bug Fixes
 
-- **errors:** Cannot get nested errors from the db ([a0991a4](https://github.com/CactusTechnologies/cactus-utils/commit/a0991a4))
-- **errors:** Casting all props to strings before passing it to the constructor ([611eb16](https://github.com/CactusTechnologies/cactus-utils/commit/611eb16))
+- **errors:** Cannot get nested errors from the db ([a0991a4](https://github.com/tomcwilliamson/cactus/commit/a0991a4))
+- **errors:** Casting all props to strings before passing it to the constructor ([611eb16](https://github.com/tomcwilliamson/cactus/commit/611eb16))
 
 ### Features
 
-- **monorepo:** Added basic typescript declarations ([0833169](https://github.com/CactusTechnologies/cactus-utils/commit/0833169))
+- **monorepo:** Added basic typescript declarations ([0833169](https://github.com/tomcwilliamson/cactus/commit/0833169))

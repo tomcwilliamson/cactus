@@ -1,7 +1,7 @@
 /**
- * @module @cactus-technologies/utils
+ * @module @quisitive/utils
  * @example
- * const utils = require('@cactus-technologies/utils')
+ * const utils = require('@quisitive/utils')
  * @typicalname utils
  */
 

@@ -7,7 +7,7 @@ const config = require('config')
 const path = require('path')
 const fp = require('lodash/fp')
 const util = require('util')
-const { assert } = require('@cactus-technologies/utils')
+const { assert } = require('@quisitive/utils')
 
 const keys = [
   'script',

@@ -1,5 +1,5 @@
 /*!
- * Copyright 2019 Cactus Technologies, LLC. All rights reserved.
+ * Copyright 2022 Quisitive, LLC. All rights reserved.
  */
 
 /**
@@ -7,7 +7,7 @@
  * @file Creates and configures a slack notifier
  */
 
-// import logger from '@cactus-technologies/logger'
+// import logger from '@quisitive/logger'
 // tslint:disable-next-line: match-default-export-name
 import config from 'config'
 // import got from 'got'
