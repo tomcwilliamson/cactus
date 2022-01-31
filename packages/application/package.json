@@ -1,0 +1,33 @@
+{
+  "name": "@cactus-technologies/node-application",
+  "private": true,
+  "version": "4.2.0",
+  "description": "Helper to manage PM2 App definitions and process states",
+  "homepage": "https://github.com/CactusTechnologies/cactus-utils/tree/master/packages/application#readme",
+  "bugs": {
+    "url": "https://github.com/CactusTechnologies/cactus-utils/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:CactusTechnologies/cactus-utils.git"
+  },
+  "license": "MIT",
+  "author": "Cactus Technologies LLC <hi@cactus.is> (http://www.cactus.is)",
+  "contributors": [
+    "Jorge Proaño <jorge@cactus.is>"
+  ],
+  "main": "index.js",
+  "dependencies": {
+    "@cactus-technologies/logger": "^2.3.0",
+    "@cactus-technologies/utils": "^1.4.0",
+    "@pm2/io": "^4.2.6",
+    "async-exit-hook": "^2.0.1",
+    "config": "^3.2.2",
+    "dev-ip": "^1.0.1",
+    "dotenv": "^8.1.0",
+    "env-paths": "^2.2.0",
+    "got": "^9.6.0",
+    "lodash": "^4.17.15",
+    "pretty-ms": "^5.0.0"
+  }
+}

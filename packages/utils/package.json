@@ -1,0 +1,46 @@
+{
+  "name": "@cactus-technologies/utils",
+  "private": true,
+  "version": "1.4.0",
+  "description": "Utility functions for node base apps",
+  "homepage": "https://github.com/CactusTechnologies/cactus-utils/tree/master/packages/utils#readme",
+  "bugs": {
+    "url": "https://github.com/CactusTechnologies/cactus-utils/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:CactusTechnologies/cactus-utils.git"
+  },
+  "license": "MIT",
+  "author": "Cactus Technologies LLC <hi@cactus.is> (http://www.cactus.is)",
+  "contributors": [
+    "Jorge Proaño <jorge@hiddennodeproblem.com>"
+  ],
+  "main": "index.js",
+  "scripts": {
+    "docs": "jsdoc2md index.js > docs/API.md"
+  },
+  "dependencies": {
+    "async": "^3.1.0",
+    "config": "^3.2.2",
+    "del": "^5.1.0",
+    "execa": "^2.0.4",
+    "json-stable-stringify": "^1.0.1",
+    "load-json-file": "^6.2.0",
+    "lodash": "^4.17.15",
+    "make-dir": "^3.0.0",
+    "moment": "^2.24.0",
+    "p-map": "^3.0.0",
+    "p-map-series": "^2.1.0",
+    "p-pipe": "^3.0.0",
+    "p-tap": "^3.1.0",
+    "rev-hash": "^3.0.0",
+    "sort-object-keys": "^1.1.2",
+    "validator": "^11.1.0",
+    "write-file-atomic": "^3.0.0",
+    "write-json-file": "^4.2.0"
+  },
+  "devDependencies": {
+    "jsdoc-to-markdown": "^5.0.1"
+  }
+}

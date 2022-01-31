@@ -1,0 +1,24 @@
+{
+  "name": "@cactus-technologies/errors",
+  "private": true,
+  "version": "1.4.0",
+  "description": "Errors module for Cactus Servers and Applications",
+  "homepage": "https://github.com/CactusTechnologies/cactus-utils/tree/master/packages/errors#readme",
+  "bugs": {
+    "url": "https://github.com/CactusTechnologies/cactus-utils/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:CactusTechnologies/cactus-utils.git"
+  },
+  "license": "MIT",
+  "author": "Cactus Technologies LLC <hi@cactus.is> (http://www.cactus.is)",
+  "contributors": [
+    "Jorge Proaño <jorge@cactus.is>"
+  ],
+  "main": "index.js",
+  "dependencies": {
+    "lodash": "^4.17.15",
+    "verror": "^1.10.0"
+  }
+}

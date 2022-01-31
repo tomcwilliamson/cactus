@@ -1,0 +1,43 @@
+{
+  "name": "@cactus-technologies/logger",
+  "private": true,
+  "version": "2.3.0",
+  "description": "Customized Pino Logger for Cactus projects",
+  "homepage": "https://github.com/CactusTechnologies/cactus-utils/tree/master/packages/logger#readme",
+  "bugs": {
+    "url": "https://github.com/CactusTechnologies/cactus-utils/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:CactusTechnologies/cactus-utils.git"
+  },
+  "license": "MIT",
+  "author": "Cactus Technologies LLC <hi@cactus.is> (http://www.cactus.is)",
+  "contributors": [
+    "Jorge Proaño <jorge@cactus.is>"
+  ],
+  "main": "lib/index.js",
+  "scripts": {
+    "fix": "run-s -sc fix:*",
+    "fix:linters": "run-p -sc lint:* -- --fix",
+    "fix:prettier": "prettier '{src,test}/*' --write",
+    "lint": "run-p -sc lint:*",
+    "lint:js": "eslint .",
+    "test": "mocha -Sb --exit",
+    "test:watch": "mocha -S --watch"
+  },
+  "dependencies": {
+    "@mechanicalhuman/bunyan-pretty": "^2.3.0",
+    "config": "^3.2.2",
+    "lodash": "^4.17.15",
+    "pino": "^5.13.2",
+    "yn": "^3.0.0"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "import-fresh": "^3.1.0",
+    "mocha": "^6.0.2",
+    "mock-require": "^3.0.3",
+    "npm-run-all": "^4.1.5"
+  }
+}
