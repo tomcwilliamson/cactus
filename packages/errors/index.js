@@ -2,11 +2,11 @@ const fp = require('lodash/fp')
 const verror = require('verror')
 const { WError } = verror
 
-class CactusError extends WError {
+class QuisitiveError extends WError {
   constructor (opts, ...props) {
     props = fp.map(String)(props)
     super({ strict: true, ...opts }, ...props)
-    this.name = 'CactusError'
+    this.name = 'QuisitiveError'
     this.code = 'UNKNOWN'
     this.status = 500
   }
@@ -21,9 +21,9 @@ class CactusError extends WError {
   }
 }
 
-exports.CactusError = CactusError
+exports.QuisitiveError = QuisitiveError
 
-exports.InternalServerError = class InternalServerError extends CactusError {
+exports.InternalServerError = class InternalServerError extends QuisitiveError {
   constructor (reason, ...props) {
     let cause
 
@@ -41,7 +41,7 @@ exports.InternalServerError = class InternalServerError extends CactusError {
   }
 }
 
-exports.NotAuthorizedError = class NotAuthorizedError extends CactusError {
+exports.NotAuthorizedError = class NotAuthorizedError extends QuisitiveError {
   constructor (...props) {
     if (props.length === 0) props.unshift('Not Authorized.')
     super({ constructorOpt: NotAuthorizedError }, ...props)
@@ -51,7 +51,7 @@ exports.NotAuthorizedError = class NotAuthorizedError extends CactusError {
   }
 }
 
-exports.NotFoundError = class NotFoundError extends CactusError {
+exports.NotFoundError = class NotFoundError extends QuisitiveError {
   constructor (...props) {
     if (props.length === 0) props.unshift('Not Found.')
     if (props.length === 1) props.unshift('Not Found: %s.')
@@ -62,7 +62,7 @@ exports.NotFoundError = class NotFoundError extends CactusError {
   }
 }
 
-exports.NotImplementedError = class NotImplementedError extends CactusError {
+exports.NotImplementedError = class NotImplementedError extends QuisitiveError {
   constructor (...props) {
     if (props.length === 0) props.unshift('Not Implemented.')
     if (props.length === 1) props.unshift('Not Implemented: %s.')
@@ -73,7 +73,7 @@ exports.NotImplementedError = class NotImplementedError extends CactusError {
   }
 }
 
-exports.InvalidArgumentError = exports.ArgError = class InvalidArgumentError extends CactusError {
+exports.InvalidArgumentError = exports.ArgError = class InvalidArgumentError extends QuisitiveError {
   constructor (reason, ...props) {
     let cause
     if (!fp.isError(reason)) props = [reason, ...props]
@@ -87,7 +87,7 @@ exports.InvalidArgumentError = exports.ArgError = class InvalidArgumentError ext
   }
 }
 
-exports.EmptyArgumentError = exports.EmptyArgError = class EmptyArgumentError extends CactusError {
+exports.EmptyArgumentError = exports.EmptyArgError = class EmptyArgumentError extends QuisitiveError {
   constructor (...props) {
     if (props.length === 1) props.unshift('%s is required.')
     if (props.length === 0) props.unshift('No Data provided.')
@@ -98,7 +98,7 @@ exports.EmptyArgumentError = exports.EmptyArgError = class EmptyArgumentError ex
   }
 }
 
-exports.DatabaseValidationError = class DatabaseValidationError extends CactusError {
+exports.DatabaseValidationError = class DatabaseValidationError extends QuisitiveError {
   constructor (cause) {
     const humanized = getHumanizedPairs(cause)
     const errors = getErrors(cause)
@@ -168,7 +168,7 @@ exports.DatabaseValidationError = class DatabaseValidationError extends CactusEr
   }
 }
 
-exports.DatabaseSaveError = class DatabaseSaveError extends CactusError {
+exports.DatabaseSaveError = class DatabaseSaveError extends QuisitiveError {
   constructor (cause, doc) {
     const props = [
       'Cannot save the %s (%s: %s) in the Database.',
@@ -184,7 +184,7 @@ exports.DatabaseSaveError = class DatabaseSaveError extends CactusError {
   }
 }
 
-exports.DatabaseRemoveError = class DatabaseRemoveError extends CactusError {
+exports.DatabaseRemoveError = class DatabaseRemoveError extends QuisitiveError {
   constructor (cause, doc) {
     const props = [
       'Cannot remove the %s (%s: %s) in the Database.',
@@ -200,7 +200,7 @@ exports.DatabaseRemoveError = class DatabaseRemoveError extends CactusError {
   }
 }
 
-exports.DatabaseNotFoundError = class DatabaseNotFoundError extends CactusError {
+exports.DatabaseNotFoundError = class DatabaseNotFoundError extends QuisitiveError {
   constructor (query, modelName = 'Document', status = 404, ...props) {
     if (props.length === 0) {
       props.unshift('Cannot find a {modelName} matching the query.')
@@ -222,7 +222,7 @@ exports.DatabaseNotFoundError = class DatabaseNotFoundError extends CactusError 
   }
 }
 
-exports.MissingDependencyError = class MissingDependencyError extends CactusError {
+exports.MissingDependencyError = class MissingDependencyError extends QuisitiveError {
   constructor (reason, ...props) {
     if (props.length === 1) {
       props.unshift('Cannot find a valid executable in the PATH')
@@ -239,7 +239,7 @@ exports.MissingDependencyError = class MissingDependencyError extends CactusErro
   }
 }
 
-exports.MissingDeviceError = class MissingDeviceError extends CactusError {
+exports.MissingDeviceError = class MissingDeviceError extends QuisitiveError {
   constructor (...props) {
     if (props.length === 1) {
       props.unshift('Cannot find a connected device.')
@@ -256,7 +256,7 @@ exports.MissingDeviceError = class MissingDeviceError extends CactusError {
   }
 }
 
-exports.FileNotFoundError = class FileNotFoundError extends CactusError {
+exports.FileNotFoundError = class FileNotFoundError extends QuisitiveError {
   constructor (reason, ...props) {
     if (props.length === 1) {
       props.unshift('Cannot find the file %s in the FileSystem')
@@ -273,7 +273,7 @@ exports.FileNotFoundError = class FileNotFoundError extends CactusError {
   }
 }
 
-exports.ApiError = class ApiError extends CactusError {
+exports.ApiError = class ApiError extends QuisitiveError {
   constructor (cause, ...props) {
     if (props.length === 0) props.unshift('Request Error')
     super({ cause: cause, constructorOpt: ApiError }, ...props)
@@ -283,7 +283,7 @@ exports.ApiError = class ApiError extends CactusError {
   }
 }
 
-exports.ApiTimeOutError = class ApiTimeOutError extends CactusError {
+exports.ApiTimeOutError = class ApiTimeOutError extends QuisitiveError {
   constructor (cause, ...props) {
     if (props.length === 0) props.unshift('Request TimedOut')
     super({ cause: cause, constructorOpt: ApiTimeOutError }, ...props)
@@ -293,7 +293,7 @@ exports.ApiTimeOutError = class ApiTimeOutError extends CactusError {
   }
 }
 
-exports.ApiFailError = class ApiFailError extends CactusError {
+exports.ApiFailError = class ApiFailError extends QuisitiveError {
   constructor (...props) {
     if (props.length === 0) props.unshift('Bad Response')
     super({ constructorOpt: ApiFailError }, ...props)

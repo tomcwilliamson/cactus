@@ -28,7 +28,7 @@ git clone git@github.com/tomcwilliamson/cactus.git cactus-utils
 
 ## Maintainers
 
-- [Jorge Proaño](mailto:jorge@cactus.is)
+- [Support](mailto:support@quisitive.com)
 
 ## Changelog
 

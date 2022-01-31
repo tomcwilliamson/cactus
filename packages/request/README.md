@@ -28,7 +28,7 @@ npm install @quisitive/api-request
 
 ## Maintainers
 
-- [Jorge Proaño](mailto:jorge@cactus.is)
+- [Support](mailto:support@quisitive.com)
 
 ## Changelog
 

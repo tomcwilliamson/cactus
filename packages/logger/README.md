@@ -3,7 +3,7 @@
 ![version](https://img.shields.io/badge/version-2.2.1-green.svg)
 ![npm](https://img.shields.io/badge/npm-private-red.svg)
 
-> Customized Pino Logger for Cactus projects
+> Customized Pino Logger for Quisitive projects
 
 ---
 
@@ -106,7 +106,7 @@ log.error(new Error('an error'))
 {"level":50,"time":0000000,"msg":"an error","pid":000,"hostname":"demo-host","name":"demo",
  "err":{"message":"an error","name":"Error",
 "stack":"Error: an error
-    at Object.<anonymous> (/Users/mechanicalhuman/Active/cactus/utils/packages/logger/example.js:12:11)
+    at Object.<anonymous> (/Users/utils/packages/logger/example.js:12:11)
     at Module._compile (internal/modules/cjs/loader.js:689:30)
     at Object.Module._extensions..js (internal/modules/cjs/loader.js:700:10)
     at Module.load (internal/modules/cjs/loader.js:599:32)
@@ -143,7 +143,7 @@ child.info('hello child!')
 
 <<<<<<< HEAD
 
-- [Jorge Proaño](mailto:jorge@cactus.is)
+- [Support](mailto:support@quisitive.com)
   ||||||| merged common ancestors
 - # [Jorge Proaño](https://www.hidden-node-problem.com)
 - [Support](mailto:support@quisitive.com)

@@ -1,7 +1,7 @@
 {
-  "hook": "CACTUS_SLACK_HOOK",
+  "hook": "QUISITIVE_SLACK_HOOK",
   "enable": {
-    "__name": "CACTUS_SLACK_ENABLE",
+    "__name": "QUISITIVE_SLACK_ENABLE",
     "__format": "json"
   }
 }

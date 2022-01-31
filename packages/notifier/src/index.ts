@@ -3,7 +3,7 @@
  */
 
 /**
- * @copyright Cactus Technologies, LLC. 2019
+ * @copyright Quisitive, LLC. 2022
  * @file Creates and configures a slack notifier
  */
 

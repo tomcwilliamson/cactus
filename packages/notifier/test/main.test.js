@@ -16,19 +16,19 @@ const testHook =
 describe('Environment', function () {
   before(function () {
     delete process.env.NODE_CONFIG
-    delete process.env.CACTUS_SLACK_HOOK
-    delete process.env.CACTUS_SLACK_ENABLE
+    delete process.env.QUISITIVE_SLACK_HOOK
+    delete process.env.QUISITIVE_SLACK_ENABLE
   })
 
   afterEach(function () {
-    delete process.env.CACTUS_SLACK_HOOK
-    delete process.env.CACTUS_SLACK_ENABLE
+    delete process.env.QUISITIVE_SLACK_HOOK
+    delete process.env.QUISITIVE_SLACK_ENABLE
   })
 
   // Ensure testing environment is configured
   it('should be respect env variables', function () {
-    process.env.CACTUS_SLACK_ENABLE = 'true'
-    process.env.CACTUS_SLACK_HOOK = testHook
+    process.env.QUISITIVE_SLACK_ENABLE = 'true'
+    process.env.QUISITIVE_SLACK_HOOK = testHook
 
     importFresh('config')
     const notifier = importFresh('..')
@@ -41,8 +41,8 @@ describe('Environment', function () {
 describe('Active discovery', function () {
   before(function () {
     delete process.env.NODE_CONFIG
-    delete process.env.CACTUS_SLACK_HOOK
-    delete process.env.CACTUS_SLACK_ENABLE
+    delete process.env.QUISITIVE_SLACK_HOOK
+    delete process.env.QUISITIVE_SLACK_ENABLE
   })
 
   afterEach(function () {
@@ -83,8 +83,8 @@ describe('Active discovery', function () {
 describe('messages', function () {
   before(function () {
     delete process.env.NODE_CONFIG
-    delete process.env.CACTUS_SLACK_HOOK
-    delete process.env.CACTUS_SLACK_ENABLE
+    delete process.env.QUISITIVE_SLACK_HOOK
+    delete process.env.QUISITIVE_SLACK_ENABLE
   })
   process.env.NODE_CONFIG = JSON.stringify({
     slack: { enable: true, hook: testHook }

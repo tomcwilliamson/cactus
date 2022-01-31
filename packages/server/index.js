@@ -17,7 +17,7 @@ const pre = require('./lib/pre')
 const security = require('./lib/security')
 const utils = require('./lib/utils')
 
-const CactusError = errors.CactusError
+const QuisitiveError = errors.QuisitiveError
 const InternalServerError = errors.InternalServerError
 const NotImplementedError = errors.NotImplementedError
 const NotFoundError = errors.NotFoundError
@@ -103,7 +103,7 @@ class CactusServer {
   static logErrors (error, request, response, next) {
     request.log.trace('Handler: logErrors')
 
-    if (error instanceof CactusError === false) {
+    if (error instanceof QuisitiveError === false) {
       error = new InternalServerError(error, error.message)
     }
 

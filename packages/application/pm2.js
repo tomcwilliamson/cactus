@@ -165,7 +165,7 @@ class Application {
       DEBUG_HIDE_DATE: this.development ? true : undefined,
       DEBUG_COLORS: this.development ? true : undefined,
       PRETTY_TERM_COLORS: this.development ? true : undefined,
-      CACTUS_LOGS_PRETTY: this.development ? true : undefined,
+      QUISITIVE_LOGS_PRETTY: this.development ? true : undefined,
       PROCESS_TITLE: this.service
     }
 
