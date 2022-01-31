@@ -1,0 +1,31 @@
+{
+  "npmClient": "yarn",
+  "useWorkspaces": true,
+  "version": "independent",
+  "sort": true,
+  "command": {
+    "publish": {
+      "ignoreChanges": ["**/*.md", "**/AUTHORS"],
+      "allowBranch": "master",
+      "message": "chore(release): publish",
+      "conventionalCommits": true
+    },
+    "bootstrap": {
+      "hoist": true
+    },
+    "clean": {
+      "yes": true
+    },
+    "run": {
+      "bail": false,
+      "parallel": true,
+      "stream": true
+    },
+    "exec": {
+      "bail": false,
+      "parallel": true,
+      "stream": true
+    }
+  },
+  "packages": ["packages/*", "tools/*", "components/*"]
+}

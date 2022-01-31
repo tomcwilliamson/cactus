@@ -1,0 +1,73 @@
+{
+  "name": "cactus-utils",
+  "version": "0.0.0",
+  "private": true,
+  "description": "Cactus Utilities monorepo",
+  "homepage": "https://github.com/CactusTechnologies/cactus-utils#readme",
+  "bugs": {
+    "url": "https://github.com/CactusTechnologies/cactus-utils/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:CactusTechnologies/cactus-utils.git"
+  },
+  "license": "MIT",
+  "author": "Cactus Technologies LLC <hi@cactus.is> (http://www.cactus.is)",
+  "contributors": [
+    "Jorge Proaño <jorge@cactus.is>"
+  ],
+  "workspaces": [
+    "packages/*",
+    "tools/*",
+    "components/*"
+  ],
+  "scripts": {
+    "compile": "lerna run compile",
+    "dev": "lerna run dev --scope \"@cactus-technologies/{notifier}\"",
+    "lint": "lerna run lint",
+    "readme": "run-s readme:*",
+    "readme:packages": "lerna exec --concurrency=1 package-scripts -- compile --no-todos",
+    "readme:root": "package-scripts compile",
+    "test": "lerna run test",
+    "todos": "package-scripts todos",
+    "verify": "run-s compile test"
+  },
+  "config": {
+    "commitizen": {
+      "path": "@hnp/cz"
+    },
+    "scopes": [
+      "application",
+      "errors",
+      "logger",
+      "notifier",
+      "request",
+      "server",
+      "utils",
+      "uuid"
+    ]
+  },
+  "dependencies": {
+    "@types/node": "^12.7.4"
+  },
+  "devDependencies": {
+    "@hnp/cz": "^1.0.8",
+    "@hnp/package-scripts": "^1.0.11",
+    "eslint": "^6.3.0",
+    "eslint-config-hnp": "^1.2.0",
+    "husky": "^3.0.5",
+    "lerna": "^3.16.4",
+    "lint-staged": "^9.2.5",
+    "npm-run-all": "^4.1.5",
+    "prettier": "^1.18.2",
+    "stylelint": "^10.1.0",
+    "stylelint-config-hnp": "^1.1.3",
+    "tslib": "^1.10.0",
+    "tslint": "^5.19.0",
+    "tslint-config-hnp": "^1.2.4",
+    "typescript": "^3.6.2"
+  },
+  "engines": {
+    "node": ">=10.0"
+  }
+}
