@@ -1,6 +1,6 @@
 {
   "name": "@quisitive/api-request",
-  "private": true,
+  "private": false,
   "version": "1.4.0",
   "description": "Request helper",
   "homepage": "https://github.com/tomcwilliamson/cactus/tree/master/packages/request#readme",

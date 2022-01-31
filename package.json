@@ -1,7 +1,7 @@
 {
   "name": "quisitive-utils",
   "version": "0.0.0",
-  "private": true,
+  "private": false,
   "description": "Quisitive Utilities Monorepo",
   "homepage": "https://github.com/tomcwilliamson/cactus#readme",
   "bugs": {
