@@ -3,7 +3,7 @@
 ![version](https://img.shields.io/badge/version-1.3.1-green.svg)
 ![npm](https://img.shields.io/badge/npm-private-red.svg)
 
-> Basic Server for Cactus Webservices
+> Basic Server for Quisitive Webservices
 
 ---
 
