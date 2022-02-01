@@ -1,7 +1,7 @@
 {
   "name": "@quisitive/server",
   "private": false,
-  "version": "1.4.1",
+  "version": "2.0.0",
   "description": "Basic Server for Quisitive Webservices",
   "homepage": "https://github.com/tomcwilliamson/cactus/tree/master/packages/server#readme",
   "bugs": {
