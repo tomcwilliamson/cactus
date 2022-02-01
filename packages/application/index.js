@@ -2,7 +2,7 @@
 
 /* Load .env first */
 
-require('./dot-env')()
+require('./dot-env')
 
 const ms = require('pretty-ms')
 const util = require('util')
