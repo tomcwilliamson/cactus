@@ -1,7 +1,7 @@
 {
   "name": "@quisitive/logger",
   "private": false,
-  "version": "2.3.0",
+  "version": "3.0.0",
   "description": "Customized Pino Logger for Quisitive projects",
   "homepage": "https://github.com/tomcwilliamson/cactus/tree/master/packages/logger#readme",
   "bugs": {
