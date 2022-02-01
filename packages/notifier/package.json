@@ -1,6 +1,6 @@
 {
   "name": "@quisitive/notifier",
-  "version": "1.2.1",
+  "version": "2.0.0",
   "private": false,
   "description": "Slack Notifications Manager",
   "homepage": "https://github.com/tomcwilliamson/cactus/tree/master/modules/notifier#readme",
@@ -53,5 +53,8 @@
   },
   "peerDependencies": {
     "tslib": "^1.10.0"
+  },
+  "directories": {
+    "test": "test"
   }
 }

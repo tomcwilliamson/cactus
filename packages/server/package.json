@@ -1,7 +1,7 @@
 {
   "name": "@quisitive/server",
   "private": false,
-  "version": "1.4.1",
+  "version": "2.0.0",
   "description": "Basic Server for Quisitive Webservices",
   "homepage": "https://github.com/tomcwilliamson/cactus/tree/master/packages/server#readme",
   "bugs": {
@@ -14,7 +14,7 @@
   "license": "MIT",
   "author": "Quisitive LLC <support@quisitive.com> (http://quisitive.com)",
   "contributors": [
-    "Support<support@quisitive.com>"
+    "Support <support@quisitive.com>"
   ],
   "main": "index.js",
   "dependencies": {
@@ -32,5 +32,11 @@
     "on-headers": "^1.0.2",
     "serve-favicon": "^2.5.0",
     "sort-object-keys": "^1.1.2"
+  },
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
   }
 }

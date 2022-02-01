@@ -1,6 +1,6 @@
 {
   "name": "@quisitive/uuid",
-  "version": "1.2.1",
+  "version": "2.0.0",
   "description": "A set of Unique ID generators for JS apps",
   "homepage": "https://github.com/tomcwilliamson/cactus/tree/master/packages/uuid#readme",
   "bugs": {
@@ -13,7 +13,7 @@
   "license": "MIT",
   "author": "Quisitive LLC <support@quisitive.com> (http://quisitive.com)",
   "contributors": [
-    "Support<support@quisitive.com>"
+    "Support <support@quisitive.com>"
   ],
   "files": [
     "dist"

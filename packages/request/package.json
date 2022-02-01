@@ -1,7 +1,7 @@
 {
   "name": "@quisitive/api-request",
   "private": false,
-  "version": "1.4.0",
+  "version": "2.0.0",
   "description": "Request helper",
   "homepage": "https://github.com/tomcwilliamson/cactus/tree/master/packages/request#readme",
   "bugs": {
@@ -14,7 +14,7 @@
   "license": "MIT",
   "author": "Quisitive LLC <support@quisitive.com> (http://quisitive.com)",
   "contributors": [
-    "Support<support@quisitive.com>"
+    "Support <support@quisitive.com>"
   ],
   "main": "index.js",
   "dependencies": {
@@ -26,5 +26,11 @@
     "pretty-bytes": "^5.3.0",
     "pretty-ms": "^5.0.0",
     "request": "^2.88.0"
+  },
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
   }
 }
