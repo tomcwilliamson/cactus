@@ -1,7 +1,7 @@
 {
   "name": "@quisitive/server",
   "private": false,
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "Basic Server for Quisitive Webservices",
   "homepage": "https://github.com/tomcwilliamson/cactus/tree/master/packages/server#readme",
   "bugs": {
@@ -18,11 +18,11 @@
   ],
   "main": "index.js",
   "dependencies": {
-    "@quisitive/errors": "^1.4.0",
-    "@quisitive/logger": "^3.0.0",
-    "@quisitive/node-application": "^5.0.0",
-    "@quisitive/utils": "^2.0.0",
-    "@quisitive/uuid": "^2.0.0",
+    "@quisitive/errors": "^1.4.1",
+    "@quisitive/logger": "^3.0.1",
+    "@quisitive/node-application": "^5.0.1",
+    "@quisitive/utils": "^2.0.1",
+    "@quisitive/uuid": "^2.0.1",
     "compression": "^1.7.4",
     "config": "^3.2.2",
     "express": "^4.17.1",

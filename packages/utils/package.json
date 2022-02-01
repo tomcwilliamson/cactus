@@ -1,7 +1,7 @@
 {
   "name": "@quisitive/utils",
   "private": false,
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "Utility functions for node base apps",
   "homepage": "https://github.com/tomcwilliamson/cactus/tree/master/packages/utils#readme",
   "bugs": {

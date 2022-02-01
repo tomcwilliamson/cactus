@@ -1,7 +1,7 @@
 {
   "name": "@quisitive/node-application",
   "private": false,
-  "version": "5.0.0",
+  "version": "5.0.1",
   "description": "Helper to manage PM2 App definitions and process states",
   "homepage": "https://github.com/tomcwilliamson/cactus/tree/master/packages/application#readme",
   "bugs": {

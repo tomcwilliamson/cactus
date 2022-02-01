@@ -1,7 +1,7 @@
 {
   "name": "@quisitive/errors",
   "private": false,
-  "version": "1.4.0",
+  "version": "1.4.1",
   "description": "Errors module for Quisitive Servers and Applications",
   "homepage": "https://github.com/tomcwilliamson/cactus/tree/master/packages/errors#readme",
   "bugs": {
